@@ -6,13 +6,35 @@ body {
 }
 
 nav {
+background-color: #333333;
+
+padding:3px;
 
 
 }
 
+nav ul {
+    list-style-type:none;
+    
+}
+nav ul li {
+display:inline;
+color:white;
+}
+
+nav ul li a{
+text-decoration:none;
+padding: 14px 16px;
+color:white;
+}
+
+nav ul li a:hover{
+    color:grey;
+}
 
 
 
+/*
 footer {
    
     display:block;
@@ -34,7 +56,7 @@ footer {
     width: 100%;
 }
 
-@media only screen and (min-width: 1250px) { /*When the screen gets above 1250 px this code is activated*/
+@media only screen and (min-width: 1250px) { When the screen gets above 1250 px this code is activated
     #wrapper {
         width: 1245px;
         margin: auto;
@@ -55,7 +77,7 @@ footer {
 
 @media only screen and (max-width: 1250px) {
     #wrapper {
-        margin-left: 10px; /*When the screen gets under 1250 px this code is activated*/
+        margin-left: 10px; When the screen gets under 1250 px this code is activated
         margin-right: 10px;
     }
     .card {
@@ -108,4 +130,4 @@ padding-bottom:4rem;
 #W3img {
     padding-top: 4rem;
     padding-bottom: 4rem;
-}
+}*/
