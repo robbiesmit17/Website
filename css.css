@@ -1,0 +1,111 @@
+
+
+body {
+    background-color: #f2f2f2 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+
+
+}
+
+
+
+
+footer {
+   
+    display:block;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#wrapper {
+    padding: 15px;
+    min-height: 1000px;
+    background-color: #fff;
+}
+
+#HeadImage {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1250px) { /*When the screen gets above 1250 px this code is activated*/
+    #wrapper {
+        width: 1245px;
+        margin: auto;
+       
+    }
+    .card {
+        width: 24rem;
+        margin: 10px;
+    }
+
+    #JobListings .card {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    #wrapper {
+        margin-left: 10px; /*When the screen gets under 1250 px this code is activated*/
+        margin-right: 10px;
+    }
+    .card {
+        width: 45%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #JobListings .card {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .card {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+#PeopleFlex {
+    display: flex;
+    flex-direction: row;
+     flex-wrap:wrap;
+}
+
+.card {
+    border: 1px solid !important;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#ApplyButton {
+    text-align: center;
+}
+
+#CourseFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#Skillshareimg {
+padding-top:4rem;
+padding-bottom:4rem;
+}
+#W3img {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
